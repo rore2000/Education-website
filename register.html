@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title> Register Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="behavior.js" defer>  </script>
+  </head>
+
+  <body>
+
+    <br>
+    <img class="Ml_image" src="ML.png" alt="">
+    <div class="smallbox">
+
+      <form  name="regForm" id="regForm" method="post"  onsubmit="return check()" action="register.php">
+        Enter your email: <input type="text" name="email"> <span class="errors" id="errorEmail"></span><br> <br>
+        Enter your name: <input type="text" name="name"> <span class="errors" id="errorName"></span><br> <br>
+        Enter the password: <input type="text" name="pass"> <span class="errors" id="errorPass"></span><br><br>
+        re-Enter the password: <input type="text" name="passCon"> <span class="errors" id="errorpassCon"></span><br><br>
+        <button class="button" type="submit" name="submit_reg">Submit</button>
+
+      </form>
+    </div>
+
+
+  </body>
+</html>
