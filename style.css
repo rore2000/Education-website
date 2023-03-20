@@ -1,0 +1,154 @@
+
+.largebox {
+
+  border-radius: 5px;
+  background-color: #Faf9f6;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  height:450px;
+  width:70%;
+}
+
+.mediumbox {
+
+  border-radius: 5px;
+  background-color: #Faf9f6;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  height:350px;
+  width:70%;
+}
+
+
+
+
+.smallbox {
+
+  border-radius: 5px;
+  background-color: #Faf9f6;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  height:215px;
+  width:50%;
+}
+
+
+
+
+.Ml_image{
+  height:100px;
+  width:150px;
+  border-radius: 10px;
+}
+
+body{
+  text-align: center;
+  font-family:Verdana;
+  text-decoration: solid;
+
+}
+
+.button{
+    background-color: #0a2e42;
+    border-style:solid;
+    /*border-radius: 12px;*/
+    color: white;
+    /*padding: 20px 20px;*/
+    /*display: inline-block;*/
+    font-size: 20px;
+    margin: 10px;
+}
+
+.table table, tr,th  {
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+    border:2px solid black;
+    border-collapse: collapse;
+    padding: 3px;
+    caption-side: top;
+    border-width: thin;
+}
+
+
+
+.box #tableHead th{
+  background-color: azure;
+
+}
+
+.center {
+
+  margin-left: auto;
+
+  margin-right: auto;
+
+}
+
+.question{
+  text-align: center;
+  font-family:Verdana;
+  text-decoration: solid;
+  font-size: 20px;
+  font-weight: bold;
+  color: #0a2e42;
+}
+
+.correct{
+  text-align: center;
+  font-family:Verdana;
+  text-decoration: solid;
+  font-size: 16px;
+  font-weight: bold;
+  color: green;
+}
+
+.wrong{
+  text-align: center;
+  font-family:Verdana;
+  text-decoration: solid;
+  font-size: 16px;
+  font-weight: bold;
+  color: red;
+}
+
+.score{
+  text-align: center;
+  font-family:Verdana;
+  text-decoration: solid;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+/*
+.background {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+}
+.background img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+}
+*/
+html {
+  background: url(darkBlue.png) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+}
